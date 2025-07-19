@@ -1,0 +1,89 @@
+:root {
+    --font-size: 14px;
+    --background: #ffffff;
+    --card: #ffffff;
+    --card-foreground: #0d0d0d;
+    --accent: rgba(0, 207, 0, 0.323);
+    --font-weight-medium: 500;
+    --font-weight-normal: 400;
+    --radius: 0.625rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.login-form {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    border-radius: var(--radius);
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    box-shadow: 0px 0px 2px rgb(166, 165, 165);
+}
+
+.container h1 {
+    margin-bottom: 1em;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    height: 100%;
+}
+
+.login-form {
+    width: 100%;
+    height: 100%;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.user label {
+    font-weight: 600;
+    text-transform: capitalize
+}
+
+.user .input-field {
+    border: none;
+    outline: 1px rgba(151, 149, 149, 0.768) solid;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.input-btn {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: 2px green solid;
+    background-color: var(--accent);
+    color: rgb(3, 72, 3);
+}
